@@ -1,0 +1,111 @@
+{
+  "ip": "62.210.232.163",
+  "port": 10008,
+  "debug": {
+    "ping": true,
+    "query": true,
+    "srv": true,
+    "querymismatch": false,
+    "ipinsrv": false,
+    "cnameinsrv": true,
+    "animatedmotd": false,
+    "cachehit": false,
+    "cachetime": 1718797951,
+    "cacheexpire": 1718798011,
+    "apiversion": 3,
+    "dns": {
+      "srv": [
+        {
+          "name": "_minecraft._tcp.play.sunrisenetwork.eu",
+          "type": "SRV",
+          "class": "IN",
+          "ttl": 14400,
+          "rdlength": 0,
+          "rdata": "",
+          "priority": 0,
+          "weight": 5,
+          "port": 10008,
+          "target": "sunrise.craft.gg"
+        }
+      ],
+      "srv_a": [
+        {
+          "name": "sunrise.craft.gg",
+          "type": "CNAME",
+          "class": "IN",
+          "ttl": 60,
+          "rdlength": 0,
+          "rdata": "",
+          "cname": "minecraft45.craft.gg"
+        },
+        {
+          "name": "minecraft45.craft.gg",
+          "type": "CNAME",
+          "class": "IN",
+          "ttl": 60,
+          "rdlength": 0,
+          "rdata": "",
+          "cname": "minecraft45.omgserv.com"
+        },
+        {
+          "name": "minecraft45.omgserv.com",
+          "type": "CNAME",
+          "class": "IN",
+          "ttl": 300,
+          "rdlength": 0,
+          "rdata": "",
+          "cname": "mcnode45fr.omgserv.com"
+        },
+        {
+          "name": "mcnode45fr.omgserv.com",
+          "type": "A",
+          "class": "IN",
+          "ttl": 300,
+          "rdlength": 0,
+          "rdata": "",
+          "address": "62.210.232.163"
+        }
+      ]
+    }
+  },
+  "motd": {
+    "raw": [
+      "\u00a7r\u00a7r\u00a78\u00a7l //\u00a7r \u00a7r\u00a76\u00a7lThe Sunrise Network \u00a7r\u00a78\u00a7l // \u00a7r\u00a7a\u00a7l  1.20.x   \u00a7r\u00a78\u00a7l//\u00a7r \u00a7r\u00a7e    \u00a7r\u00a78\u00a7l//      \u00a7r\u00a7e\u00a7l CHUNK LOCK       \u00a7r\u00a78\u00a7l//     \u00a7r\u00a7e\u00a7lSMP    \u00a7r\u00a78\u00a7l//\u00a7r"
+    ],
+    "clean": [
+      " // The Sunrise Network  //   1.20.x   //     //       CHUNK LOCK       //     SMP    //"
+    ],
+    "html": [
+      "<span style=\"color: #555555\"><span style=\"font-weight: bold;\"> //</span></span> <span style=\"color: #FFAA00\"><span style=\"font-weight: bold;\">The Sunrise Network </span></span><span style=\"color: #555555\"><span style=\"font-weight: bold;\"> // </span></span><span style=\"color: #55FF55\"><span style=\"font-weight: bold;\">  1.20.x   </span></span><span style=\"color: #555555\"><span style=\"font-weight: bold;\">//</span></span> <span style=\"color: #FFFF55\">    </span><span style=\"color: #555555\"><span style=\"font-weight: bold;\">//      </span></span><span style=\"color: #FFFF55\"><span style=\"font-weight: bold;\"> CHUNK LOCK       </span></span><span style=\"color: #555555\"><span style=\"font-weight: bold;\">//     </span></span><span style=\"color: #FFFF55\"><span style=\"font-weight: bold;\">SMP    </span></span><span style=\"color: #555555\"><span style=\"font-weight: bold;\">//</span></span>"
+    ]
+  },
+  "players": {
+    "online": 0,
+    "max": 120
+  },
+  "version": "1.8.x-1.20.x",
+  "online": true,
+  "protocol": {
+    "version": 765,
+    "name": "1.20.4"
+  },
+  "hostname": "sunrise.craft.gg",
+  "software": "BungeeCord",
+  "map": {
+    "raw": "BungeeCord_Proxy",
+    "clean": "BungeeCord_Proxy",
+    "html": "BungeeCord_Proxy"
+  },
+  "info": {
+    "raw": [
+      "\u00a71Players: 0/120"
+    ],
+    "clean": [
+      "Players: 0/120"
+    ],
+    "html": [
+      "<span style=\"color: #0000AA\">Players: 0/120</span>"
+    ]
+  },
+  "eula_blocked": false
+}
