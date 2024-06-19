@@ -26,7 +26,7 @@ def get_server_status(ip):
         print("JSON decoding error")
 
 def main():
-    ip = input("Server address: ").strip()
+    ip = "play.sunrisenetwork.eu".strip()
     
     if not ip:
         print("Please enter the server address.")
